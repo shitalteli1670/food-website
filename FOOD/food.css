@@ -1,0 +1,73 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing:border-box;
+  }
+  body{
+    background-image: url(https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais);
+  }
+ h1{
+     text-align:center;
+     font-size:66px;
+     color:white;
+     font-style:italic;
+     padding:20px;
+   }
+ nav{
+      /*background-color:;*/
+      display:grid;
+      place-items:center;
+    }
+ nav ul{
+         list-style-type:none;
+       }
+ nav ul a{
+           display:inline-block;
+           padding:20px;
+           text-decoration:none;
+           color:white;
+           transition:0.2s ease-in;
+           font-size:22px;
+         }
+ nav ul a:hover{
+          background-color:white;
+          color:black;
+               }
+ section nav .icon i{
+         font-size:18px;
+         color:white;
+         margin:0 5px;
+         cursor:pointer;
+         transition:0.3s;
+                    }
+ body{
+ background-repeat:no-repeat;
+ height:100vh;
+ width:100%;
+ background-size:cover;
+ background-position:center;
+ }
+ h1 span{
+    color:#ffa31a;
+    margin-right:15px;
+    font-family: mv boli;
+ }
+ @media only screen and (max-width:800px) {
+   /* For tablets: */
+   .main {
+     width: 80%;
+     padding: 0;
+   }
+   .right {
+     width: 100%;
+   }
+ }
+ @media only screen and (max-width:500px) {
+   /* For mobile phones: */
+   .menu, .main, .right {
+     width: 100%;
+   }
+ }
+ 
